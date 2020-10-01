@@ -1,12 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  # day-planner-moment
-
-  ### Author: David Guthmann
+  ### Author: ${data.name}
   
-  github: https://github.com/Dguthmann/  
-  livesite: https://dguthmann.github.io/day-planner-moment/
+  github: https://github.com/${data.github}/  
+  livesite: ${data.livesite}
   
   ## List of Contents
   
