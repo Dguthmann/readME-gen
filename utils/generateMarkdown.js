@@ -33,5 +33,5 @@ function generateMarkdown(data) {
 
 `;
 }
-
-module.exports = generateMarkdown;
+// Send back this function to index
+module.exports.generateMarkdown = generateMarkdown;
