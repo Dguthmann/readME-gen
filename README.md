@@ -5,31 +5,37 @@
 github: https://github.com/Dguthmann/  
 livesite: N/A  
 
+
 ## List of Contents
 
-README.md
-index.js
+README.md  
+index.js  
+
 
 ## Installation
-you will need the following additional npms to run this project:
+you will need the following additional npms to run this project:  
 inquirer
 
 
 ## Basic Overview of Project
 
-The goal of the project is to generate a new readme file dynamically using node and js.
+The goal of the project is to generate a new readme file dynamically using node and js.  
+
 
 ## Screenshot of Website
 
-N/A
+N/A  
+
 
 ## resources Used
 
-Zachary Auerbach for modulization and working in new features that I was brainstorming.
+Zachary Auerbach for modulization and working in new features that I was brainstorming.  
+
 
 ## Further Development Plans
 
-More futureproofing, was trying for one that prompted user for if they had screenshots, or number of files to ask for that specifically otherwise leave out stuff, but the nesting functions were being challenging with promise errors.
+More futureproofing, was trying for one that prompted user for if they had screenshots, or number of files to ask for that specifically otherwise leave out stuff, but the nesting functions were being challenging with promise errors.  
+
 
 ## Changelog
 

@@ -19,6 +19,10 @@ function generateMarkdown(data) {
   you will need the following npms to run this project:  
   ${data.npm}
 
+  ## License
+  you will need the following npms to run this project:  
+  ${data.npm}
+
 
   ## Basic Overview of Project
   
