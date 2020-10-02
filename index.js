@@ -18,10 +18,12 @@ const myTitle = new QuestionGen("input", "What is your github repo name?", "titl
 const myName = new QuestionGen("input", "What is your name?", "name");
 const myGithub = new QuestionGen("input", "What is your github name?", "github");
 const myLive = new QuestionGen("input", "What is the deployment website (https)?", "livesite");
+// Potential change
 const myHtml = new QuestionGen("input", "What is your html file name?", "html");
 const myCss = new QuestionGen("input", "What is your css file name?", "css");
 const myJs = new QuestionGen("input", "What is your js file name?", "js");
 const myScreenshot = new QuestionGen("input", "What is your screenshot file name?", "screenshot");
+// break up
 const myOverview = new QuestionGen("input", "What is the basic overview of your project?", "overview");
 const myResources = new QuestionGen("input", "What are the resource used that helped you?", "resources");
 const myFuture = new QuestionGen("input", "What are your future dev plans?", "future");
@@ -50,41 +52,6 @@ function init() {
     })
 
 }
-
-// function generateM(data) {
-//     return `# ${data.title}
-//     ### Author: ${data.name}
-    
-//     github: https://github.com/${data.github}/  
-//     livesite: ${data.livesite}
-    
-//     ## List of Contents
-    
-//     ${data.html}  
-//     ${data.css}  
-//     ${data.js}  
-//     README.md  
-//     ${data.screenshot}  
-      
-//     ## Basic Overview of Project
-    
-//     ${data.overview}
-    
-    
-//     ## Screenshot of Website
-    
-//     ![Site Screenshot](${data.screenshot})
-    
-//     ## resources Used
-    
-//     ${data.resources}
-    
-//     ## Further Development Plans
-    
-//     ${data.future}
-  
-//   `;
-//   }
 
 
 // function call to initialize program

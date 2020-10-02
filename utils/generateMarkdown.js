@@ -8,12 +8,13 @@ function generateMarkdown(data) {
   
   ## List of Contents
   
+  README.md  
   ${data.html}  
   ${data.css}  
   ${data.js}  
-  README.md  
   ${data.screenshot}  
-    
+  
+  
   ## Basic Overview of Project
   
   ${data.overview}
