@@ -16,12 +16,13 @@ function generateMarkdown(data) {
   
   
   ## Installation
+  
   you will need the following npms to run this project:  
   ${data.npm}
 
   ## License
-  you will need the following npms to run this project:  
-  ${data.npm}
+
+  ${data.license}  
 
 
   ## Basic Overview of Project
@@ -32,7 +33,13 @@ function generateMarkdown(data) {
   ## Screenshot of Website
   
   ![Site Screenshot](${data.screenshot})
+
+
+  ## Test Files
+
+  ${data.testers}
   
+
   ## resources Used
   
   ${data.resources}
