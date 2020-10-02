@@ -2,7 +2,7 @@
 
 ### Author: David Guthmann
 
-github: https://github.com/Dguthmann/
+github: https://github.com/Dguthmann/  
 livesite: N/A  
 
 ## List of Contents
