@@ -9,14 +9,12 @@ function generateMarkdown(data) {
   ## List of Contents
   
   README.md  
-  ${data.html}  
-  ${data.css}  
-  ${data.js}  
+  ${data.files}  
   ${data.screenshot}  
   
   
   ## Installation
-  
+
   you will need the following npms to run this project:  
   ${data.npm}
 

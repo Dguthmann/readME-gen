@@ -18,9 +18,7 @@ const myName = new QuestionGen("input", "What is your name?", "name");
 const myGithub = new QuestionGen("input", "What is your github name?", "github");
 const myLive = new QuestionGen("input", "What is the deployment website (https)?", "livesite");
 // Potential change
-const myHtml = new QuestionGen("input", "What is your html file name?", "html");
-const myCss = new QuestionGen("input", "What is your css file name?", "css");
-const myJs = new QuestionGen("input", "What is your js file name?", "js");
+const myFiles = new QuestionGen("input", "What are all of the files in your project? (excluding screenshot)", "files");
 const myScreenshot = new QuestionGen("input", "What is your screenshot file name?", "screenshot");
 // break up
 const myInstall = new QuestionGen("input", "What npms do you need to complete", "npm");
@@ -31,7 +29,7 @@ const myResources = new QuestionGen("input", "What are the resource used that he
 const myFuture = new QuestionGen("input", "What are your future dev plans?", "future");
 
 // add all the questions to the questions array
-questions.push(myTitle, myName, myGithub, myLive, myHtml, myCss, myJs, myScreenshot, myInstall, myLicense, myOverview, myTesters, myResources, myFuture)
+questions.push(myTitle, myName, myGithub, myLive, myFiles, myScreenshot, myInstall, myLicense, myOverview, myTesters, myResources, myFuture)
 //Writing a readme in a markdown file (use my template)
 // function that will generate my readme template both in generatemarkdown
 
