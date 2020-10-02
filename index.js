@@ -21,10 +21,10 @@ const myLive = new QuestionGen("input", "What is the deployment website (https)?
 const myFiles = new QuestionGen("input", "What are all of the files in your project? (excluding screenshot)", "files");
 const myScreenshot = new QuestionGen("input", "What is your screenshot file name?", "screenshot");
 // break up
-const myInstall = new QuestionGen("input", "What npms do you need to complete", "npm");
+const myInstall = new QuestionGen("input", "What npms do you need to complete?", "npm");
 const myLicense = new QuestionGen("input", "What license did you use for this project? (typically MIT)", "license");
 const myOverview = new QuestionGen("input", "What is the basic overview of your project?", "overview");
-const myTesters = new QuestionGen("input", "What are your test files", "testers");
+const myTesters = new QuestionGen("input", "What are your test files?", "testers");
 const myResources = new QuestionGen("input", "What are the resource used that helped you?", "resources");
 const myFuture = new QuestionGen("input", "What are your future dev plans?", "future");
 
