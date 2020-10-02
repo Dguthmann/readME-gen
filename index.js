@@ -2,6 +2,7 @@
 //install my dependencies -  inquirer
 const fs = require("fs");
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 const genM = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -30,12 +31,8 @@ questions.push(myTitle, myName, myGithub, myLive, myHtml, myCss, myJs, myScreens
 //Writing a readme in a markdown file (use my template)
 // function that will generate my readme template both in generatemarkdown
 
-
-
-
-
-function writeToFile(fileName, data) {
-}
+// function writeToFile(fileName, data) {
+// }
 
 // function to initialize program
 function init() {
@@ -44,7 +41,8 @@ function init() {
     inquirer.prompt(questions).then(function (response) {
         // use answers that come back from inquirer - pass those into my generate readme function
         // function to write README file
-        fs.writeFile("README.md", genM(response), function (err){
+        console.log(response);
+        fs.writeFile("READMEnew.md", genM.generateMarkdown(response), function (err){
             if (err) {
                 throw err;
             }
@@ -52,6 +50,42 @@ function init() {
     })
 
 }
+
+// function generateM(data) {
+//     return `# ${data.title}
+//     ### Author: ${data.name}
+    
+//     github: https://github.com/${data.github}/  
+//     livesite: ${data.livesite}
+    
+//     ## List of Contents
+    
+//     ${data.html}  
+//     ${data.css}  
+//     ${data.js}  
+//     README.md  
+//     ${data.screenshot}  
+      
+//     ## Basic Overview of Project
+    
+//     ${data.overview}
+    
+    
+//     ## Screenshot of Website
+    
+//     ![Site Screenshot](${data.screenshot})
+    
+//     ## resources Used
+    
+//     ${data.resources}
+    
+//     ## Further Development Plans
+    
+//     ${data.future}
+  
+//   `;
+//   }
+
 
 // function call to initialize program
 init();

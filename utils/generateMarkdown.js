@@ -33,5 +33,7 @@ function generateMarkdown(data) {
 
 `;
 }
+// const genNew = new generateMarkdown(data);
+
 // Send back this function to index
 module.exports.generateMarkdown = generateMarkdown;
