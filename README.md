@@ -10,6 +10,10 @@ livesite: N/A
 README.md
 index.js
 
+## Installation
+you will need the following additional npms to run this project:
+inquirer
+
 
 ## Basic Overview of Project
 
@@ -25,10 +29,11 @@ Zachary Auerbach for modulization and working in new features that I was brainst
 
 ## Further Development Plans
 
-More futureproofing
+More futureproofing, was trying for one that prompted user for if they had screenshots, or number of files to ask for that specifically otherwise leave out stuff, but the nesting functions were being challenging with promise errors.
 
 ## Changelog
 
+2020-10-02: Added installation section
 2020-10-01: Fixing of modulization, writing of array generator questions
 2020-09-30: working in the default template
 

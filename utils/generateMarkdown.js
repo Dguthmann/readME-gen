@@ -15,6 +15,11 @@ function generateMarkdown(data) {
   ${data.screenshot}  
   
   
+  ## Installation
+  you will need the following npms to run this project:  
+  ${data.npm}
+
+
   ## Basic Overview of Project
   
   ${data.overview}

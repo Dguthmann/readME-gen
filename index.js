@@ -2,7 +2,6 @@
 //install my dependencies -  inquirer
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
 const genM = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -24,12 +23,13 @@ const myCss = new QuestionGen("input", "What is your css file name?", "css");
 const myJs = new QuestionGen("input", "What is your js file name?", "js");
 const myScreenshot = new QuestionGen("input", "What is your screenshot file name?", "screenshot");
 // break up
+const myInstall = new QuestionGen("input", "What npms do you need to complete", "npm");
 const myOverview = new QuestionGen("input", "What is the basic overview of your project?", "overview");
 const myResources = new QuestionGen("input", "What are the resource used that helped you?", "resources");
 const myFuture = new QuestionGen("input", "What are your future dev plans?", "future");
 
 // add all the questions to the questions array
-questions.push(myTitle, myName, myGithub, myLive, myHtml, myCss, myJs, myScreenshot, myOverview, myResources, myFuture)
+questions.push(myTitle, myName, myGithub, myLive, myHtml, myCss, myJs, myScreenshot, myInstall, myOverview, myResources, myFuture)
 //Writing a readme in a markdown file (use my template)
 // function that will generate my readme template both in generatemarkdown
 
